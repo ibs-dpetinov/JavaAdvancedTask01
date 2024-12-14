@@ -9,7 +9,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+/*
+ * The user is prompted to select an operation .
+ */
         System.out.println("Выберите арифметическую операцию:");
         System.out.println("1.Сложение");
         System.out.println("2.Вычитание");
@@ -29,7 +31,7 @@ public class Main {
 
         System.out.println("Введите знаменатель второй дроби: ");
         int num4 = scanner.nextInt();
-        float result = 0;
+        float result;
         if (num2 != 0) {
             switch (choice) {
                 case 1:
